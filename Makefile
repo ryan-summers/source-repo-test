@@ -2,4 +2,5 @@
 CC=gcc
 
 all:
-	$(CC) main.c -o target_executable
+	mkdir -p build/
+	$(CC) main.c -o build/target_executable
