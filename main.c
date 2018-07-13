@@ -10,6 +10,11 @@ int main(int argc, char *argv[])
 	printf("Hello world! Argc: %d\n", argc);
 
     printf("More tests!\n");
+    printf("More tests!\n");
+    if (argc > 7)
+    {
+        printf("Thats a lot of arguments!\n");
+    }
 
 	return 0;
 }
