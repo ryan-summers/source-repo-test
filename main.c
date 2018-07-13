@@ -9,5 +9,7 @@ int main(int argc, char *argv[])
 
 	printf("Hello world! Argc: %d\n", argc);
 
+    printf("More tests!\n");
+
 	return 0;
 }
